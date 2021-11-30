@@ -17,10 +17,10 @@ import {
   FaGithub,
   FaLinkedin,
   FaTwitter,
-  FaHackerrank,
+  // FaHackerrank,
   FaMedium,
 } from "react-icons/fa";
-import { SiGmail, SiLeetcode } from "react-icons/si";
+import { SiGmail } from "react-icons/si";
 
 const footerData = [
   {
@@ -69,7 +69,7 @@ const footerData = [
   //   id: 6,
   //   title: "HackerRank",
   //   display: "HackerRank",
-  //   link: "https://hackerrank.com/ajmalmiyan",
+  //   link: "https://hackerrank.com/vrathod591",
   //   icon: <FaHackerrank className="commonIconsFooter" />,
   // },
 
