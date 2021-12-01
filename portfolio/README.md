@@ -1,1 +1,1 @@
-## Vishal Rathod' portfolio
+## Vishal Rathod' Personal Portfolio
