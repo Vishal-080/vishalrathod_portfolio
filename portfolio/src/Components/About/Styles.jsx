@@ -8,9 +8,6 @@ export const AboutDiv = styled.div`
   align-items: center;
 `;
 
-
-
-
 export const Column = styled.div`
   width: 50%;
 
@@ -19,7 +16,6 @@ export const Column = styled.div`
     text-align: center;
   }
 `;
-
 
 export const Img = styled.img`
   padding: 30px;
@@ -30,12 +26,12 @@ export const Img = styled.img`
   @media (max-width: 465px) {
     /* margin-left: -35px; */
     /* width: 80%; */
-    width:350px;
+    width: 350px;
     height: 350px;
     /* justify-self: center; */
     /* justify-items: center; */
     /* justify-content: center/; */
-   /* padding : 0px; */
+    /* padding : 0px; */
   }
 `;
 
