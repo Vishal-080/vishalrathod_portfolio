@@ -51,23 +51,7 @@ const Projects = () => {
     //   repo_link: "https://github.com/ajmalmiyan/netflix",
     //   tech_stack: [<FaReact />, <FaJs />, <FaHtml5 />, <FaCss3 />],
     // },
-    // {
-    //   id: 3,
-    //   project_name: "Paytm Bus Clone",
-    //   image: "/project_images/paytmbus.png",
-    //   project_desc:
-    //     "A clone of Paytm Bus Web Application which is an online Bus Ticket Booking platform.",
-    //   deploy_link: "https://paytmbus.vercel.app/",
-    //   repo_link: "https://github.com/ajmalmiyan/paytm-bus",
-    //   tech_stack: [
-    //     <FaReact />,
-    //     <FaNodeJs />,
-    //     <SiMongodb />,
-    //     <SiRedux />,
-    //     <FaJs />,
-    //     <FaCss3 />,
-    //   ],
-    // },
+    // 
     {
       id: 4,
       project_name: "SEEKHO E-library",
@@ -85,6 +69,23 @@ const Projects = () => {
         <SiMongodb />,
       ],
     },
+    {
+        id: 3,
+        project_name: "GROWW Clone",
+        image: "/project_images/paytmbus.png",
+        project_desc:
+          "An online stocks trading web app. Built using JS, Express js, Node js and MongoDB.",
+      //  deploy_link: "https://paytmbus.vercel.app/",
+        repo_link: "https://github.com/Vishal-080/Groww_Clone",
+        tech_stack: [
+          <FaReact />,
+          <FaNodeJs />,
+          <SiMongodb />,
+          <SiRedux />,
+          <FaJs />,
+          <FaCss3 />,
+        ],
+      },
     {
       id: 5,
       project_name: "Bluemercury Clone",
