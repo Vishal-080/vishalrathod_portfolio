@@ -61,12 +61,13 @@ const Projects = () => {
       deploy_link: "https://seekho-frontend-vcow10kar.vercel.app/",
       repo_link: "https://github.com/Vishal-080/seekho-project",
       tech_stack: [
+        <SiMongodb />,
+        <FaNodeJs />,
         <FaReact />,
-        <FaJs />,
+        <FaNodeJs />,
         <FaHtml5 />,
         <FaCss3 />,
-        <FaNodeJs />,
-        <SiMongodb />,
+        <FaJs />,
       ],
     },
     {
@@ -78,12 +79,12 @@ const Projects = () => {
       //  deploy_link: "https://paytmbus.vercel.app/",
         repo_link: "https://github.com/Vishal-080/Groww_Clone",
         tech_stack: [
-          <FaReact />,
+          <FaHtml5 />,
+          <FaCss3 />,
+          <FaJs />,
           <FaNodeJs />,
           <SiMongodb />,
-          <SiRedux />,
-          <FaJs />,
-          <FaCss3 />,
+          <FaNodeJs />,
         ],
       },
     {
