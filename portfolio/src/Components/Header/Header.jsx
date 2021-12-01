@@ -15,16 +15,22 @@ const Banner = () => {
             creating useful and interactive web applications.
           </P>
           <HeaderButtons>
-            <A target="_blank" rel="noreferrer"  href="/resume/Vishal_resume.pdf" >Resume</A>
+            <A
+              target="_blank"
+              rel="noreferrer"
+              href="/resume/Vishal_resume.pdf"
+            >
+              Resume
+            </A>
             &nbsp;&nbsp;&nbsp;
             <Link
-            activeClass="active"
-            to="projects"
-            spy={true}
-            smooth={true}
-            duration={300}
-          >
-            <A>Projects</A>
+              activeClass="active"
+              to="projects"
+              spy={true}
+              smooth={true}
+              duration={300}
+            >
+              <A>Projects</A>
             </Link>
           </HeaderButtons>
         </div>
