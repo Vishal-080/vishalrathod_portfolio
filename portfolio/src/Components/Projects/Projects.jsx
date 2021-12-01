@@ -51,7 +51,7 @@ const Projects = () => {
     //   repo_link: "https://github.com/ajmalmiyan/netflix",
     //   tech_stack: [<FaReact />, <FaJs />, <FaHtml5 />, <FaCss3 />],
     // },
-    // 
+    //
     {
       id: 4,
       project_name: "SEEKHO E-library",
@@ -71,22 +71,22 @@ const Projects = () => {
       ],
     },
     {
-        id: 3,
-        project_name: "GROWW Clone",
-        image: "/project_images/GROWW.png",
-        project_desc:
-          "An online stocks trading web app. Built using JS, Express js, Node js and MongoDB.",
+      id: 3,
+      project_name: "GROWW Clone",
+      image: "/project_images/GROWW.png",
+      project_desc:
+        "An online stocks trading web app. Built using JS, Express js, Node js and MongoDB.",
       //  deploy_link: "https://paytmbus.vercel.app/",
-        repo_link: "https://github.com/Vishal-080/Groww_Clone",
-        tech_stack: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaNodeJs />,
-          <SiMongodb />,
-          <FaNodeJs />,
-        ],
-      },
+      repo_link: "https://github.com/Vishal-080/Groww_Clone",
+      tech_stack: [
+        <FaHtml5 />,
+        <FaCss3 />,
+        <FaJs />,
+        <FaNodeJs />,
+        <SiMongodb />,
+        <FaNodeJs />,
+      ],
+    },
     {
       id: 5,
       project_name: "Bluemercury Clone",
