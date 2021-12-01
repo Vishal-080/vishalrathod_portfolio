@@ -71,7 +71,7 @@ const Projects = () => {
     {
       id: 4,
       project_name: "SEEKHO E-library",
-      image: "/project_images/lfcstore.png",
+      image: "/project_images/Seekho.png",
       project_desc:
         "An online E library built using React JS, Express js, Node JS and Mongodb.",
       deploy_link: "https://seekho-frontend-vcow10kar.vercel.app/",
