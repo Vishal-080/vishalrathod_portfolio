@@ -1,12 +1,11 @@
 import React from "react";
 import { Toggle } from "./Toggle";
-import { NavBarDiv , NavBarRight, NavLink } from "./Styles";
+import { NavBarDiv, NavBarRight, NavLink } from "./Styles";
 import { Link } from "react-scroll";
 // import useMediaQuery from "react-use-media-query-hook";
 // import { slide as Menu } from 'react-burger-menu'
 // import './Navbar.module.css'
 // import { red } from "@material-ui/core/colors";
-
 
 const menus = [
   { id: 0, name: "Home", css: "home" },
@@ -78,11 +77,13 @@ function Navbar({ themeToggler }) {
   //   setOpened(!opened)
   //   console.log(opened)
   // }
-  return (<NavBarDiv>
+  return (
+    <NavBarDiv>
       <Toggle themeToggler={themeToggler} />
       <NavBarRight>
         {menus.map((item) => (
-          <Link key={item.id}
+          <Link
+            key={item.id}
             activeClass="active"
             to={item.css}
             spy={true}
@@ -93,8 +94,8 @@ function Navbar({ themeToggler }) {
           </Link>
         ))}
       </NavBarRight>
-    </NavBarDiv>)
-  
+    </NavBarDiv>
+  );
 }
 
 export default Navbar;
