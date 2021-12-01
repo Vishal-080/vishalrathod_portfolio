@@ -76,19 +76,25 @@ const Projects = () => {
         "An online E library built using React JS, Express js, Node JS and Mongodb.",
       deploy_link: "https://seekho-frontend-vcow10kar.vercel.app/",
       repo_link: "https://github.com/Vishal-080/seekho-project",
-      tech_stack: [<FaReact />, <FaJs />, <FaHtml5 />, <FaCss3 />,<FaNodeJs />, <SiMongodb />],
+      tech_stack: [
+        <FaReact />,
+        <FaJs />,
+        <FaHtml5 />,
+        <FaCss3 />,
+        <FaNodeJs />,
+        <SiMongodb />,
+      ],
     },
     {
       id: 5,
       project_name: "Bluemercury Clone",
-       image: "/project_images/bluemercury.png",
+      image: "/project_images/bluemercury.png",
       project_desc:
         "Bluemercury is an US based Cosmetics store. Built using HTML, CSS and JavaScript. ",
       deploy_link: "https://bluemercuryclone.netlify.app/",
       repo_link: "https://github.com/Vishal-080/Bluemercury",
-      tech_stack: [<FaHtml5 />, <FaCss3 />,<FaJs />],
-    }
-
+      tech_stack: [<FaHtml5 />, <FaCss3 />, <FaJs />],
+    },
 
     //https://seekho-frontend-vcow10kar.vercel.app/
   ];
