@@ -31,11 +31,11 @@ const Stats = () => {
           </LastStat>
         </StatsCont>
       </StatsContCont>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <img
         src="https://ghchart.rshah.org/021F34/Vishal-080"
         alt="fdsdf"
