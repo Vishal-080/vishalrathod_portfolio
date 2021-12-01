@@ -2,13 +2,13 @@ import styled from "styled-components";
 
 export const Load = styled.div`
   color: #343a40;
-  width:100vw;
+  width: 100vw;
   height: 100vh;
   font-family: Consolas, Menlo, Monaco, monospace;
   font-weight: bold;
   font-size: 30vh;
   opacity: 0.8;
-  display: flex;  
+  display: flex;
   justify-content: center;
   align-items: center;
   span {
@@ -18,10 +18,10 @@ export const Load = styled.div`
       animation-delay: 0.4s;
     }
   }
-@keyframes pulse {
-  to {
-    transform: scale(0.8);
-    opacity: 0.5;
+  @keyframes pulse {
+    to {
+      transform: scale(0.8);
+      opacity: 0.5;
+    }
   }
-}
 `;
