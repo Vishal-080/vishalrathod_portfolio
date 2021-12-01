@@ -18,7 +18,7 @@ export const Contact1 = styled.div`
   align-items: center;
 `;
 export const ContactContainer = styled.div`
-/* border: 1px solid black; */
+  /* border: 1px solid black; */
   width: 80%;
   margin: 0 auto;
 
@@ -56,7 +56,6 @@ export const ContactForm = styled.form`
     text-align: center; */
     /* margin-bottom: 50px; */
     margin: auto;
-    
   }
 `;
 
@@ -85,13 +84,12 @@ export const InputInput1 = styled.input`
   @media (max-width: 500px) {
     /* margin-left: 0; */
     /* width: 90%; */
-    
   }
   @media (max-width: 430px) {
     /* margin-left: -35px; */
     /* width: 80%; */
-    
-   /* padding : 0px; */
+
+    /* padding : 0px; */
   }
 `;
 
@@ -107,17 +105,16 @@ export const InputInput2 = styled.textarea`
   min-height: 150px;
   border-radius: 5px;
   padding: 12px 30px;
-  
+
   @media (max-width: 500px) {
     /* margin-left: 0; */
     /* width: 90%; */
-    
   }
   @media (max-width: 430px) {
     /* margin-left: -35px; */
     /* width: 80%; */
-    
-   /* padding : 0px; */
+
+    /* padding : 0px; */
   }
 `;
 
@@ -148,20 +145,19 @@ export const A = styled.button`
     background-color: #0556f3;
     border: 1px solid rgb(211, 220, 230);
   }
-  
+
   @media (max-width: 500px) {
     /* margin-left: -35px; */
     /* width: 90%; */
-    
-   /* padding : 0px; */
+
+    /* padding : 0px; */
   }
   @media (max-width: 430px) {
     /* margin-left: -75px; */
     /* width: 80%; */
-    
-   /* padding : 0px; */
-  }
 
+    /* padding : 0px; */
+  }
 `;
 
 export const Column = styled.div`
@@ -169,16 +165,14 @@ export const Column = styled.div`
 
   /* @media (max-width: 795px) {
     /* margin-left: 200px; */
-    /* width: 100%; */
-    /* text-align: center; */
-  /* } */ 
+  /* width: 100%; */
+  /* text-align: center; */
+  /* } */
   @media (max-width: 795px) {
     width: 100%;
     text-align: center;
     margin-bottom: 50px;
-    
   }
-
 `;
 
 export const P = styled.p`
@@ -194,10 +188,10 @@ export const P = styled.p`
 `;
 
 export const LinksCont = styled.div`
-/* border: 1px solid black; */
-    margin-left: 100px;
-    /* width: 100%; */
-    @media (max-width: 795px) {
+  /* border: 1px solid black; */
+  margin-left: 100px;
+  /* width: 100%; */
+  @media (max-width: 795px) {
     /* width: 100%;
     text-align: center; */
     /* margin-bottom: 50px; */
@@ -205,11 +199,9 @@ export const LinksCont = styled.div`
     /* margin-left: 0; */
     /* width: 50%; */
     justify-content: center;
-    
   }
-  
+
   @media (max-width: 600px) {
     margin-left: 0;
-    
   }
 `;
