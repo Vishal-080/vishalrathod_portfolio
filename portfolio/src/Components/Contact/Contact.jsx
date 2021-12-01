@@ -6,7 +6,8 @@ import {
   InputInput2,
   A,
   Column,
-  P,LinksCont
+  P,
+  LinksCont,
 } from "./Styles";
 import emailjs from "emailjs-com";
 import { Container, Common, H1 } from "../../SharedStyles/SharedStyles";
@@ -72,7 +73,6 @@ const footerData = [
   //   link: "https://hackerrank.com/vrathod591",
   //   icon: <FaHackerrank className="commonIconsFooter" />,
   // },
-
 ];
 
 const Contact = () => {
@@ -126,26 +126,26 @@ const Contact = () => {
           </ContactForm>
         </Column>
         <Column>
-        <LinksCont>
-          {footerData.map((item) => (
-            <div title={item.title} style={{ display: "flex" }}>
-              <div>
-                {/* <a target="_blank" rel="noreferrer" href={item.link}  style={{textDecoration:"none"}}> */}
-                {item.icon}
-                {/* </a> */}
+          <LinksCont>
+            {footerData.map((item) => (
+              <div title={item.title} style={{ display: "flex" }}>
+                <div>
+                  {/* <a target="_blank" rel="noreferrer" href={item.link}  style={{textDecoration:"none"}}> */}
+                  {item.icon}
+                  {/* </a> */}
+                </div>
+                <div style={{ marginTop: "-5px" }}>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href={item.link}
+                    style={{ textDecoration: "none" }}
+                  >
+                    <P>{item.display}</P>
+                  </a>
+                </div>
               </div>
-              <div style={{ marginTop: "-5px" }}>
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href={item.link}
-                  style={{ textDecoration: "none" }}
-                >
-                  <P>{item.display}</P>
-                </a>
-              </div>
-            </div>
-          ))}
+            ))}
           </LinksCont>
         </Column>
       </ContactContainer>
