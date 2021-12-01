@@ -8,7 +8,7 @@ import Skills from "../Components/Skills/Skills";
 import Contact from "../Components/Contact/Contact";
 import Stats from "../Components/Stats/Stats";
 import Loader from "../Components/Loader/Loader";
-import Footer from "../Components/Foooter/Footer"
+import Footer from "../Components/Foooter/Footer";
 const Home = ({ currentTheme, themeToggler }) => {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
@@ -29,7 +29,7 @@ const Home = ({ currentTheme, themeToggler }) => {
       <Projects />
       <Stats />
       <Contact />
-      <Footer/>
+      <Footer />
     </div>
   );
 };
