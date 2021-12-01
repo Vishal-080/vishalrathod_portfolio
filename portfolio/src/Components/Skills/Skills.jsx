@@ -133,7 +133,6 @@ const Skills = () => {
           <H1>Skills and Technologies</H1>
         </Common>
         <Col>
-          <H1>Front-End</H1>
           {projects.map((item) => (
             <BoxDiv key={item.id}>
               <SkillBox>
