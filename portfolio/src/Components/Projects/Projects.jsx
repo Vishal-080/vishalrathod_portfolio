@@ -83,10 +83,10 @@ const Projects = () => {
       project_name: "Bluemercury Clone",
        image: "/project_images/bluemercury.png",
       project_desc:
-        "Bluemercury is an US based Cosmetics store.",
+        "Bluemercury is an US based Cosmetics store. Built using HTML, CSS and JavaScript. ",
       deploy_link: "https://bluemercuryclone.netlify.app/",
       repo_link: "https://github.com/Vishal-080/Bluemercury",
-      tech_stack: [<FaJs />, <FaHtml5 />, <FaCss3 />],
+      tech_stack: [<FaHtml5 />, <FaCss3 />,<FaJs />],
     }
 
 
