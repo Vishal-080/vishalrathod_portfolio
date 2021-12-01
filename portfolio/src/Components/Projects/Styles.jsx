@@ -48,13 +48,13 @@ export const ProjectDiv = styled.div`
   @media (max-width: 1125px) {
     width: 95%;
   }
-  
 `;
 export const ServiceBoxHeader = styled.div`
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: ${(props)=>props.theme.fontColorHeader};`;
+  color: ${(props) => props.theme.fontColorHeader};
+`;
 export const ServiceBoxP = styled.div`
   font-size: 14px;
   /* text-align: left; */
@@ -62,11 +62,11 @@ export const ServiceBoxP = styled.div`
 `;
 
 export const Row = styled.div`
-display: flex;
+  display: flex;
   width: 100%;
   justify-content: center;
   flex-wrap: wrap;
-  `;
+`;
 
 // export const Col = styled.div`
 // /* width: 33.33333333333333%; */
