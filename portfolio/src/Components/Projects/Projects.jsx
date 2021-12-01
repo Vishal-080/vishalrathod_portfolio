@@ -81,10 +81,10 @@ const Projects = () => {
     {
       id: 5,
       project_name: "Bluemercury Clone",
-      // image: "/project_images/calendly.png",
+       image: "/project_images/bluemercury.png",
       project_desc:
         "Bluemercury is an US based Cosmetics store.",
-      // deploy_link: "https://calendly-clone-nu.vercel.app/",
+      deploy_link: "https://bluemercuryclone.netlify.app/",
       repo_link: "https://github.com/Vishal-080/Bluemercury",
       tech_stack: [<FaJs />, <FaHtml5 />, <FaCss3 />],
     }
