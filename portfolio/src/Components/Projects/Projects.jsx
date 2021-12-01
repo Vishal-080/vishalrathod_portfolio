@@ -72,7 +72,7 @@ const Projects = () => {
     {
         id: 3,
         project_name: "GROWW Clone",
-        image: "/project_images/paytmbus.png",
+        image: "/project_images/GROWW.png",
         project_desc:
           "An online stocks trading web app. Built using JS, Express js, Node js and MongoDB.",
       //  deploy_link: "https://paytmbus.vercel.app/",
