@@ -10,15 +10,15 @@ export const Toggle = ({ themeToggler }) => {
   return (
     <div style={{border:"1px solid #021f34",borderRadius:"20px"}}>
     <Switch
-      handleDiameter={20}
-      width={60}
-      height={30}
+      handleDiameter={22}
+      width={65}
+      height={37}
       checked={isDark}
       onChange={handleChange}
       checkedIcon={
-        <div style={{padding:"2.5px"}}>🌙</div>
+        <div style={{padding:"3px"}}>🌙</div>
       }
-      uncheckedIcon={<div style={{padding:"2.5px"}}>🌞</div>}
+      uncheckedIcon={<div style={{padding:"3px"}}>🌞</div>}
       onColor="#fff"
       offColor="#fff"
       offHandleColor="#0556f3"
