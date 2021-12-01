@@ -68,16 +68,16 @@ const Projects = () => {
     //     <FaCss3 />,
     //   ],
     // },
-    // {
-    //   id: 4,
-    //   project_name: "LFC Store",
-    //   image: "/project_images/lfcstore.png",
-    //   project_desc:
-    //     "Liverpool FC Merchandise Shopping Cart. Built using React JS, SCSS and Context API",
-    //   deploy_link: "https://lfcstore.vercel.app/",
-    //   repo_link: "https://github.com/ajmalmiyan/lfcstore",
-    //   tech_stack: [<FaReact />, <FaJs />, <FaHtml5 />, <FaCss3 />],
-    // },
+    {
+      id: 4,
+      project_name: "SEEKHO E-library",
+      image: "/project_images/lfcstore.png",
+      project_desc:
+        "An online E library built using React JS, Express js, Node JS and Mongodb.",
+      deploy_link: "https://seekho-frontend-vcow10kar.vercel.app/",
+      repo_link: "https://github.com/Vishal-080/seekho-project",
+      tech_stack: [<FaReact />, <FaJs />, <FaHtml5 />, <FaCss3 />,<FaNodeJs />, <SiMongodb />],
+    },
     {
       id: 5,
       project_name: "Bluemercury Clone",
@@ -88,6 +88,9 @@ const Projects = () => {
       repo_link: "https://github.com/Vishal-080/Bluemercury",
       tech_stack: [<FaJs />, <FaHtml5 />, <FaCss3 />],
     }
+
+
+    //https://seekho-frontend-vcow10kar.vercel.app/
   ];
 
   return (
