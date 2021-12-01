@@ -5,7 +5,7 @@ const NavBarDiv = styled.div`
   position: fixed;
   width: 100%;
   top: 0px;
-  box-shadow: 0 5px 20px rgba(0,0,0, 0.1);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   padding-left: 50px;
   padding-right: 50px;
   display: flex;
@@ -15,8 +15,8 @@ const NavBarDiv = styled.div`
   @media (max-width: 460px) {
     /* margin-left: -35px; */
     width: 100%;
-    
-   /* padding : 0px; */
+
+    /* padding : 0px; */
   }
 `;
 
@@ -25,7 +25,7 @@ export const NavBarDiv2 = styled.div`
   position: fixed;
   width: 100%;
   top: 0px;
-  box-shadow: 0 5px 20px rgba(0,0,0, 0.1);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   /* padding-left: 50px; */
   /* padding-right: 50px; */
   /* display: flex; */
@@ -35,8 +35,8 @@ export const NavBarDiv2 = styled.div`
   @media (max-width: 460px) {
     /* margin-left: -35px; */
     width: 90%;
-    
-   /* padding : 0px; */
+
+    /* padding : 0px; */
   }
 `;
 
@@ -51,17 +51,17 @@ const NavLink = styled.li`
   font-size: 18px;
   padding: 0 15px;
   display: block;
-  &:hover{
+  &:hover {
     color: ${(props) => props.theme.socialIconColor};
   }
   @media (max-width: 640px) {
     font-size: 16px;
-  padding: 0 5px;
+    padding: 0 5px;
   }
-  
+
   @media (max-width: 445px) {
     font-size: 14px;
-  padding: 0 5px;
+    padding: 0 5px;
   }
 `;
 
