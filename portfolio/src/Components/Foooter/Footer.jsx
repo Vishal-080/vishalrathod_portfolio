@@ -5,15 +5,16 @@ import { FooterCont, A } from "./Styles";
 const Footer = () => {
   return (
     <Container>
-        <FooterCont>
-      {/* <FooterLink> */}
+      <FooterCont>
+        {/* <FooterLink> */}
         <A
           href="https://github.com/Vishal-080/vishalrathod_portfolio"
-          target="_blank" rel="noreferrer"
+          target="_blank"
+          rel="noreferrer"
         >
           <strong>Source Code</strong>
         </A>
-        </FooterCont>
+      </FooterCont>
       {/* </FooterLink> */}
     </Container>
   );
