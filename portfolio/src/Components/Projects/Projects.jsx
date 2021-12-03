@@ -76,7 +76,7 @@ const Projects = () => {
       image: "/project_images/GROWW.png",
       project_desc:
         "An online stocks trading web app. Built using JS, Express js, Node js and MongoDB.",
-      //  deploy_link: "https://paytmbus.vercel.app/",
+        deploy_link: "https://growww-clone.netlify.app/",
       repo_link: "https://github.com/Vishal-080/Groww_Clone",
       tech_stack: [
         <FaHtml5 />,
