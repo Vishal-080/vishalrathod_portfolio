@@ -14,6 +14,7 @@ export const HeaderContent = styled.div`
 
 export const H1 = styled.h1`
   font-size: 57px;
+  margin-top:40px;
   margin-bottom: 20px;
   color: ${(props) => props.theme.fontColorHeader};
   animation-name: fadeInUp;
