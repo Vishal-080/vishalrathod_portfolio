@@ -2,13 +2,15 @@ import React from "react";
 import { HeaderContent, H1, P, A, HeaderButtons } from "./Styles";
 import { Container } from "../../SharedStyles/SharedStyles";
 import { Link } from "react-scroll";
+import "./typing.css";
 
 const Banner = () => {
   return (
     <Container className="home">
       <HeaderContent>
         <div>
-          <H1>Hi 👋 I'm Vishal Rathod</H1>
+          <H1>Hi 👋 I'm </H1><span><h2 data-text="Vishal Rathod">Vishal Rathod</h2></span>
+          <br />
           <P>
             An enthusiastic Full Stack Web Developer with a strong set of
             technical as well as non-technical skills and a dedication towards

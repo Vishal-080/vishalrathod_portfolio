@@ -19,6 +19,9 @@ export const H1 = styled.h1`
   animation: 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 `;
 
+
+
+
 export const HeaderButtons = styled.div`
   object-fit: cover;
   justify-content: space-between;
