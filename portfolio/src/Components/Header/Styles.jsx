@@ -9,7 +9,7 @@ export const HeaderContent = styled.div`
   justify-content:center;
   text-align: center;
   color: ${(props) => props.theme.fontColorSecondary};
-  margin: 3em auto;
+  margin: 2em auto;
 `;
 
 export const H1 = styled.h1`

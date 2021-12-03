@@ -10,8 +10,6 @@ const Banner = () => {
       <HeaderContent>
         <div>
           <br/>
-          <br/>
-          <br/>
           <H1>Hi 👋 I'm </H1><span><h2 data-text="Vishal Rathod">Vishal Rathod</h2></span>
           <br />
           <P>
@@ -39,6 +37,7 @@ const Banner = () => {
             </Link>
           </HeaderButtons>
         </div>
+        <br />
       </HeaderContent>
     </Container>
   );

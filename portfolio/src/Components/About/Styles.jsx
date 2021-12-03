@@ -26,15 +26,16 @@ export const Img = styled.img`
   border-radius: 50%;
   margin:auto;
   justify-content: center;
-  /* border: 1px solid black; */
+  // border: 1px solid black; 
   @media (max-width: 445px) {
     /* margin-left: -35px; */
     /* width: 80%; */
     width: 350px;
     height: 350px;
+    margin: auto;
     /* justify-self: center; */
-    /* justify-items: center; */
-    /* justify-content: center/; */
+     justify-items: center;
+     justify-content: center/; 
     /* padding : 0px; */
   }
 `;

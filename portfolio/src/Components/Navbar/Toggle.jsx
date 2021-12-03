@@ -15,8 +15,8 @@ export const Toggle = ({ themeToggler }) => {
         height={37}
         checked={isDark}
         onChange={handleChange}
-        checkedIcon={<div style={{ padding: "3px" }}>🌙</div>}
-        uncheckedIcon={<div style={{ padding: "3px" }}>🌞</div>}
+        checkedIcon={<div style={{ padding: "4px" }}>🌙</div>}
+        uncheckedIcon={<div style={{ padding: "4px" }}>🌞</div>}
         onColor="#fff"
         offColor="#fff"
         offHandleColor="#0556f3"

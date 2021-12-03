@@ -33,6 +33,7 @@ const socialMediaLinks = [
 const About = () => {
   return (
     <Container className="about">
+      <br />
       <AboutDiv>
         <Column>
           <Img src="/images/vishalT.webp" alt="my image" />
@@ -64,6 +65,7 @@ const About = () => {
           </HeaderUl>
         </Column>
       </AboutDiv>
+      <br />
     </Container>
   );
 };
