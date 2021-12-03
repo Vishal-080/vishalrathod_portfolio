@@ -8,6 +8,7 @@ import Contact from "./Components/Contact/Contact";
 import PageNotFound from "./Components/PageNotFound/PageNotFound";
 import { ThemeProvider } from "styled-components";
 import Home from "./Container/Home";
+
 const DarkTheme = {
   backgroundColor: "#15161b", //021f34//#1f2022
   fontColorHeader: "#ffd479", ///fff
