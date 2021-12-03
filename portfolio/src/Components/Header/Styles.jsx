@@ -6,6 +6,7 @@ export const HeaderContent = styled.div`
   align-items: center;
   height: 80vh;
   width: 70%;
+  justify-content:center;
   text-align: center;
   color: ${(props) => props.theme.fontColorSecondary};
   margin: 3em auto;
@@ -18,9 +19,6 @@ export const H1 = styled.h1`
   animation-name: fadeInUp;
   animation: 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 `;
-
-
-
 
 export const HeaderButtons = styled.div`
   object-fit: cover;

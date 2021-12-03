@@ -7,6 +7,8 @@
 	font-family: "Inter", sans-serif;
 }
 
+
+
 /* body {
 	display: flex;
 	min-height: 100vh;
@@ -39,14 +41,12 @@ h2::before {
 
 @keyframes animate {
 	0%,
-    30%,
-	60%,
+    50%,
 	100% {
 		width: 0;
 	}
-
-	65%,
-	90% {
+	60%,
+	95% {
 		width: 100%;
 	}
 }

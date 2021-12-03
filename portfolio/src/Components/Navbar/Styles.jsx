@@ -5,7 +5,7 @@ const NavBarDiv = styled.div`
   position: fixed;
   width: 100%;
   top: 0px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
   padding-left: 50px;
   padding-right: 50px;
   display: flex;
@@ -15,7 +15,7 @@ const NavBarDiv = styled.div`
   @media (max-width: 460px) {
     /* margin-left: -35px; */
     width: 100%;
-
+    margin:auto;
     /* padding : 0px; */
   }
 `;
@@ -24,8 +24,9 @@ export const NavBarDiv2 = styled.div`
   background: ${(props) => props.theme.backgroundColor};
   position: fixed;
   width: 100%;
+  
   top: 0px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
   /* padding-left: 50px; */
   /* padding-right: 50px; */
   /* display: flex; */
@@ -34,7 +35,7 @@ export const NavBarDiv2 = styled.div`
   /* justify-content: space-between; */
   @media (max-width: 460px) {
     /* margin-left: -35px; */
-    width: 90%;
+    width: 80%;
 
     /* padding : 0px; */
   }
@@ -42,6 +43,7 @@ export const NavBarDiv2 = styled.div`
 
 const NavBarRight = styled.ul`
   display: flex;
+
 `;
 
 const NavLink = styled.li`

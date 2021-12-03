@@ -6,11 +6,13 @@ export const AboutDiv = styled.div`
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 `;
 
 export const Column = styled.div`
   width: 50%;
-
+  margin:auto;
+  justify-content: center;
   @media (max-width: 870px) {
     width: 100%;
     text-align: center;
@@ -22,8 +24,10 @@ export const Img = styled.img`
   width: 400px;
   height: 400px;
   border-radius: 50%;
+  margin:auto;
+  justify-content: center;
   /* border: 1px solid black; */
-  @media (max-width: 465px) {
+  @media (max-width: 445px) {
     /* margin-left: -35px; */
     /* width: 80%; */
     width: 350px;
@@ -50,6 +54,7 @@ export const HeaderUl = styled.ul`
   display: flex;
   margin-bottom: 20px;
   color: #fff;
+  justify-content: center;
   @media (max-width: 650px) {
     justify-content: center;
   }
