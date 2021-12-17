@@ -66,11 +66,12 @@ const footerData = [
     link: "https://medium.com/@vrathod591",
     icon: <FaMedium className="commonIconsFooter" />,
   },
-  // {
-  //   id: 6,
-  //   title: "HackerRank",
-  //   display: "HackerRank",
-  //   link: "https://hackerrank.com/vrathod591",
+   {
+     id: 6,
+     title: "Address",
+     display: "Indore, India",
+     link: "Indore, India",
+  }
   //   icon: <FaHackerrank className="commonIconsFooter" />,
   // },
 ];
