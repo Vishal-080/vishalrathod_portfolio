@@ -69,7 +69,7 @@ const footerData = [
    {
      id: 6,
      title: "Address",
-     display: "Indore, India",
+     display: "Location : Indore, India",
      link: "Indore, India",
   }
   //   icon: <FaHackerrank className="commonIconsFooter" />,
