@@ -52,11 +52,7 @@ export const ProjectDiv = styled.div`
 export const ServiceBoxHeader = styled.div`
   font-size: 16px;
   font-weight: 600;
-<<<<<<< HEAD
   margin-bottom: 8px;
-=======
-  margin-bottom: 5px;
->>>>>>> c59cee6a7d8cd98e81a4cc429fde43731fd8b024
   color: ${(props) => props.theme.fontColorHeader};
 `;
 export const ServiceBoxP = styled.div`
