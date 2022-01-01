@@ -78,12 +78,12 @@ const footerData = [
   //   title: "HackerRank",
   //   display: "HackerRank",
   //   link: "https://hackerrank.com/vrathod591",
-   {
-     id: 6,
-     title: "Address",
-     display: "Location : Indore, India",
-     link: "Indore, India",
-  }
+  //  {
+  //    id: 6,
+  //    title: "Address",
+  //    display: "Location : Indore, India",
+  //    link: "Indore, India",
+  // }
   //   icon: <FaHackerrank className="commonIconsFooter" />,
   // },
 ];
