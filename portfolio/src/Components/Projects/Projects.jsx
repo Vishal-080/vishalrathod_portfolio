@@ -130,7 +130,7 @@ const Projects = () => {
             <BoxDiv key={item.id}>
               <ServiceBox>
                 <img src={item.image} alt="icon" style={{ width: "100%" }} />
-                <div style={{ margin: "25px" }}>
+                <div style={{ margin: "15px" }}>
                   <ServiceBoxHeader style={{ textAlign: "center" }}>
                     {item.project_name}
                   </ServiceBoxHeader>
