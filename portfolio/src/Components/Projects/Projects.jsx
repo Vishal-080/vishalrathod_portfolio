@@ -59,6 +59,16 @@ const Projects = () => {
         <FaCss3 />,
       ],
     },
+    // {
+    //   id: 2,
+    //   project_name: "Netflix Clone",
+    //   image: "/project_images/netflix.png",
+    //   project_desc:
+    //     "An OTT platform that allows users to watch a wide variety of shows and movies. This is a personal project.",
+    //   deploy_link: "https://netflix-psi-murex.vercel.app/",
+    //   repo_link: "https://github.com/ajmalmiyan/netflix",
+    //   tech_stack: [<FaReact />, <FaJs />, <FaHtml5 />, <FaCss3 />],
+    // },
     //
     {
       id: 4,
