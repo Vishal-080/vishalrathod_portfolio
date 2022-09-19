@@ -20,6 +20,7 @@ import {
   FaTwitter,
   // FaHackerrank,
   FaMedium,
+  FaLocationArrow
 } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
@@ -69,9 +70,10 @@ const footerData = [
   {
     id: 6,
     title: "Address",
-    display: "Indore, India",
-    display: "Location : Indore, India",
-    link: "Indore, India",
+    // display: "Bangalore, India",
+    display: "Location : Bangalore, India",
+    link: "Bangalore, India",
+    icon: <FaLocationArrow className="commonIconsFooter" />
   },
   // {
   //   id: 6,
