@@ -44,7 +44,7 @@ const About = () => {
             <AboutInfoP>
               A dedicated Front-End Web Developer with a specialized skill set
               that enables me to build robust web applications. I am adept in
-              front-end frameworks &amp; tools and have an eye for performance and pixel perfect
+              front-end frameworks &amp; tools and have an eye for performance and pixel-perfect
               accuracy.
             </AboutInfoP>
             <AboutInfoP>
