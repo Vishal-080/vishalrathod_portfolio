@@ -59,6 +59,16 @@ const Projects = () => {
         <FaCss3 />,
       ],
     },
+    // {
+    //   id: 2,
+    //   project_name: "Netflix Clone",
+    //   image: "/project_images/netflix.png",
+    //   project_desc:
+    //     "An OTT platform that allows users to watch a wide variety of shows and movies. This is a personal project.",
+    //   deploy_link: "https://netflix-psi-murex.vercel.app/",
+    //   repo_link: "https://github.com/ajmalmiyan/netflix",
+    //   tech_stack: [<FaReact />, <FaJs />, <FaHtml5 />, <FaCss3 />],
+    // },
     //
     {
       id: 4,
@@ -120,7 +130,7 @@ const Projects = () => {
             <BoxDiv key={item.id}>
               <ServiceBox>
                 <img src={item.image} alt="icon" style={{ width: "100%" }} />
-                <div style={{ margin: "25px" }}>
+                <div style={{ margin: "15px" }}>
                   <ServiceBoxHeader style={{ textAlign: "center" }}>
                     {item.project_name}
                   </ServiceBoxHeader>

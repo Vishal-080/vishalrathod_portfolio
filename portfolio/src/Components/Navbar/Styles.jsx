@@ -12,6 +12,7 @@ const NavBarDiv = styled.div`
   height: 65px;
   align-items: center;
   justify-content: space-between;
+  z-index:999;
   @media (max-width: 460px) {
     // margin-left: -15px;
     width: 100%;
