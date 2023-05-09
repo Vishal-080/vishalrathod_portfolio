@@ -36,16 +36,16 @@ const Skills = () => {
       project_name: "JavaScript",
       project_desc: <FaJs className="commonIcons" />,
     },
-    {
-      id: 7,
-      project_name: "Mongo DB",
-      project_desc: <SiMongodb className="commonIcons" />,
-    },
-    {
-      id: 6,
-      project_name: "Express",
-      project_desc: <FaNodeJs className="commonIcons" />,
-    },
+    // {
+    //   id: 7,
+    //   project_name: "Mongo DB",
+    //   project_desc: <SiMongodb className="commonIcons" />,
+    // },
+    // {
+    //   id: 6,
+    //   project_name: "Express",
+    //   project_desc: <FaNodeJs className="commonIcons" />,
+    // },
     {
       id: 1,
       project_name: "React JS",
@@ -56,11 +56,11 @@ const Skills = () => {
       project_name: "Redux",
       project_desc: <SiRedux className="commonIcons" />,
     },
-    {
-      id: 5,
-      project_name: "Node JS",
-      project_desc: <FaNodeJs className="commonIcons" />,
-    },
+    // {
+    //   id: 5,
+    //   project_name: "Node JS",
+    //   project_desc: <FaNodeJs className="commonIcons" />,
+    // },
   ];
   const proficiencies = [
     {
@@ -73,11 +73,11 @@ const Skills = () => {
       project_name: "Data Structures",
       project_desc: <FaHubspot className="commonIcons" />,
     },
-    {
-      id: 1,
-      project_name: "Backend",
-      project_desc: <FaServer className="commonIcons" />,
-    },
+    // {
+    //   id: 1,
+    //   project_name: "Backend",
+    //   project_desc: <FaServer className="commonIcons" />,
+    // },
   ];
 
   const frontend = [

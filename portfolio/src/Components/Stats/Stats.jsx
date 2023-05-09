@@ -18,7 +18,7 @@ const Stats = () => {
             <StatsContH3>Hours of coding</StatsContH3>
           </StatsContDiv>
           <StatsContDiv>
-            <StatsContH1>400+</StatsContH1>
+            <StatsContH1>600+</StatsContH1>
             <StatsContH3>Git Commits</StatsContH3>
           </StatsContDiv>
           <StatsContDiv>
