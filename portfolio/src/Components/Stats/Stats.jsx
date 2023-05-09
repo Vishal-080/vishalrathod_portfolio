@@ -22,7 +22,7 @@ const Stats = () => {
             <StatsContH3>Git Commits</StatsContH3>
           </StatsContDiv>
           <StatsContDiv>
-            <StatsContH1>5+</StatsContH1>
+            <StatsContH1>6+</StatsContH1>
             <StatsContH3>Projects</StatsContH3>
           </StatsContDiv>
           <LastStat>
