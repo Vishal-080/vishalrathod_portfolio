@@ -70,8 +70,8 @@ const footerData = [
   {
     id: 6,
     title: "Address",
-    display: "Location : Bangalore, India",
-    link: "Bangalore, India",
+    display: "Location : Indore, India",
+    link: "Indore, India",
     icon: <FaLocationArrow className="commonIconsFooter" />
   },
   // {
