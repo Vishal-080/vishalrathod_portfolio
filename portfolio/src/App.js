@@ -20,7 +20,7 @@ const DarkTheme = {
   commonBorder: "#00aaf2", //00aaf2
 };
 const LightTheme = {
-  backgroundColor: "#f0edf6", //f9fafc/#fff
+  backgroundColor: "#fff", //#f0edf6", //f9fafc/ 
   fontColorHeader: "#343a40", ///25265e
   fontColorHeaderHover: "#fff", //fff
   fontColorPrimary: "#495057", //25265e
