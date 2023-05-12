@@ -32,7 +32,7 @@ const Stats = () => {
         </StatsCont>
       </StatsContCont>
       <br />
-      {/* <br />
+      {/* 
       <h1 style={{textAlign:"center"}}>Github Stats</h1>
       <StatsContH1 style={{textAlign:"center", color:"#495057", fontFamily:"Inter, sans-serif"}}>Github Stats</StatsContH1> */}
       
@@ -40,11 +40,14 @@ const Stats = () => {
       <br />
       <br />
       <H1 style={{textAlign:"center"}}>Github Stats</H1>
-      <img
+      <br />
+      <img src="https://ghchart.rshah.org/495057/Vishal-080" alt="Vishal-080's Github chart" 
+        style={{ width: "80%", display: "block", margin: "auto" }}/>
+      {/* <img
         src="https://ghchart.rshah.org/021F34/Vishal-080"
         alt="fdsdf"
         style={{ width: "80%", display: "block", margin: "auto" }}
-      />
+      /> */}
     </Container>
   );
 };
