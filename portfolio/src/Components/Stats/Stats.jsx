@@ -33,6 +33,8 @@ const Stats = () => {
       </StatsContCont>
       <br />
       <br />
+      {/* <h1 style={{textAlign:"center"}}>Github Stats</h1> */}
+      <StatsContH1 style={{textAlign:"center", color:"#495057", fontFamily:"Inter, sans-serif"}}>Github Stats</StatsContH1>
       <br />
       <br />
       <br />
