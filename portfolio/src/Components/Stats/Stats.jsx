@@ -7,7 +7,7 @@ import {
   StatsContH3,
   LastStat,
 } from "./Styles";
-import { Container } from "../../SharedStyles/SharedStyles";
+import { Container,H1 } from "../../SharedStyles/SharedStyles";
 const Stats = () => {
   return (
     <Container>
@@ -32,12 +32,14 @@ const Stats = () => {
         </StatsCont>
       </StatsContCont>
       <br />
+      {/* <br />
+      <h1 style={{textAlign:"center"}}>Github Stats</h1>
+      <StatsContH1 style={{textAlign:"center", color:"#495057", fontFamily:"Inter, sans-serif"}}>Github Stats</StatsContH1> */}
+      
       <br />
-      {/* <h1 style={{textAlign:"center"}}>Github Stats</h1> */}
-      <StatsContH1 style={{textAlign:"center", color:"#495057", fontFamily:"Inter, sans-serif"}}>Github Stats</StatsContH1>
       <br />
       <br />
-      <br />
+      <H1 style={{textAlign:"center"}}>Github Stats</H1>
       <img
         src="https://ghchart.rshah.org/021F34/Vishal-080"
         alt="fdsdf"
